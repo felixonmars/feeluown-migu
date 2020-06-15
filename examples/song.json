@@ -1,0 +1,117 @@
+{
+  "code": "000000",
+  "info": "操作成功",
+  "data": {
+    "songItem": {
+      "resourceType": "2",
+      "isFromCash": "1",
+      "refId": "142660",
+      "copyrightId": "6005661JPRK",
+      "contentId": "600914000000071050",
+      "songId": "146959",
+      "songName": "冰雨",
+      "singerId": "343",
+      "singer": "李翊君",
+      "albumId": "1004479319",
+      "album": "翊往情深",
+      "albumImgs": [
+        {
+          "imgSizeType": "03",
+          "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/feb1e27191ac8c248e7543814564a891/a28772338488051138854596ad35bf82"
+        },
+        {
+          "imgSizeType": "02",
+          "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/feb1e27191ac8c248e7543814564a891/942dc5c36b83036ba4496d78bcd5d3d8"
+        },
+        {
+          "imgSizeType": "01",
+          "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/feb1e27191ac8c248e7543814564a891/9e59c625d55b8acc31015f6cb7410114"
+        }
+      ],
+      "toneControl": "111100",
+      "relatedSongs": [
+        {
+          "resourceType": "3",
+          "resourceTypeName": "随身听",
+          "copyrightId": "6005661JPRK",
+          "productId": "600914000000071056"
+        },
+        {
+          "resourceType": "E",
+          "resourceTypeName": "无损",
+          "copyrightId": "6005661JPRK",
+          "productId": "600914000000071050"
+        },
+        {
+          "resourceType": "0",
+          "resourceTypeName": "彩铃",
+          "copyrightId": "60054043018",
+          "productId": "600907000006976997"
+        }
+      ],
+      "lrcUrl": "https://d.musicapp.migu.cn/prod/file-service/file-down/5374c8e0f2e20a96df952a8b075279ac/e4b22dd5ad186adf7bc88937af9b8981/8fe6f96b412fbdf39bbb3ec799df0f62",
+      "digitalColumnId": "",
+      "copyright": "1",
+      "songDescs": "",
+      "songAliasName": "",
+      "isInDAlbum": "0",
+      "isInSideDalbum": "0",
+      "isInSalesPeriod": "0",
+      "songType": "",
+      "mrcUrl": "https://d.musicapp.migu.cn/prod/file-service/file-down/5374c8e0f2e20a96df952a8b075279ac/e4b22dd5ad186adf7bc88937af9b8981/37936ba74e114bfd7840c98a69ca3c57",
+      "invalidateDate": "2099-12-31",
+      "dalbumId": "",
+      "trcUrl": "",
+      "vipType": "",
+      "scopeOfcopyright": "01",
+      "auditionsType": "00",
+      "firstIcon": "",
+      "actionUrlParams": "",
+      "mgVideoParam4IOS": "",
+      "mgVideoParam4Adr": "",
+      "translateName": "",
+      "chargeAuditions": "0",
+      "songIcon": "01",
+      "isDownload": "0",
+      "hasMv": "0",
+      "topQuality": "SQ",
+      "preSale": "0",
+      "isShare": "0",
+      "isCollection": "0",
+      "singerImg": {
+        "343": {
+          "singerName": "李翊君",
+          "miguImgItems": [
+            {
+              "imgSizeType": "03",
+              "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/9b2a124bb04741888fb8b25beead4f8a/fc12ef676f4896f6c60eb8d727a00f13",
+              "fileId": "5e17d2aac81cde0001db685c"
+            },
+            {
+              "imgSizeType": "02",
+              "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/9b2a124bb04741888fb8b25beead4f8a/6c28f8d4257f1f8e25f12844362f1601",
+              "fileId": "5e17d2aac81cde0001db685d"
+            },
+            {
+              "imgSizeType": "01",
+              "img": "https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/9b2a124bb04741888fb8b25beead4f8a/0eabd75c45ed09231fd9c5b95268cf1f",
+              "fileId": "5e17d2aac81cde0001db685e"
+            }
+          ]
+        }
+      },
+      "songNamePinyin": "",
+      "albumNamePinyin": "YIWANGQINGSHEN",
+      "artists": [
+        {
+          "id": "343",
+          "name": "李翊君",
+          "nameSpelling": "liyijun"
+        }
+      ]
+    },
+    "url": "http://freetyst.nf.migu.cn/public/product5th/product30/2019/03/25/2018%E5%B9%B411%E6%9C%8810%E6%97%A504%E7%82%B935%E5%88%86%E6%89%B9%E9%87%8F%E9%A1%B9%E7%9B%AE%E6%AD%A3%E4%B8%9C98%E9%A6%96-3/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_320_16_Stero/6005661JPRK.mp3?channelid=03&k=4597bb0ac6446654&t=1591966348&msisdn=b3d83e32-e720-407b-9125-330c3d8acf78",
+    "version": "ab415d9898dc775e8c4d1d2f99a10e5f",
+    "formatType": "HQ"
+  }
+}

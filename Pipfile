@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.doubanio.com/simple/"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+
+[packages]
+feeluown = {extras = ["battery"],version = "*"}
+marshmallow = "*"
+asyncqt = "*"
+pyqt5 = "*"
+feeluown-migu = {editable = true, path = "."}
+feeluown-kuwo = "*"
+
+[scripts]
+test = "pytest -v --ignore-glob='*_api.py'"
+test-all = "pytest -v"
