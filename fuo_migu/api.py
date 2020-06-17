@@ -29,6 +29,12 @@ class MiguApi(object, metaclass=Singleton):
         'Host': 'migu.cn',
     }
 
+    QUALITIES = {
+        'lq': (128, '128kmp3'),
+        'hq': (192, '192kmp3'),
+        'sq': (320, '320kmp3'),
+    }
+
     TIMEOUT = 30
     API_HOST = 'http://m.music.migu.cn/migu'
     SEARCH_TYPES = {
@@ -56,9 +62,9 @@ class MiguApi(object, metaclass=Singleton):
         response = self.session.get(uri)
         return response.json()
 
-    def get_song(self, sid):
+    def get_song(self, sid, quality='lq'):
         uri = f'http://app.c.nf.migu.cn/MIGUM2.0/v2.0/content/listen-url?netType=01&resourceType=E&songId={sid}' \
-              f'&toneFlag=HQ&dataType=2'
+              f'&toneFlag={quality.upper()}&dataType=2'
         response = self.session.get(uri, headers={
             'channel': '0146951',
             'uid': '123',

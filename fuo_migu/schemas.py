@@ -19,6 +19,7 @@ class MiguSongItemSchema(Schema):
     covers = fields.List(fields.Dict, data_key='albumImgs', required=False)
     artists = fields.List(fields.Dict, data_key='artists', required=False)
     lrc = fields.Str(data_key='lrcUrl', required=False)
+    top_quality = fields.Str(data_key='topQuality', required=False)
 
 
 class MiguSongSchema(Schema):
@@ -37,9 +38,15 @@ class MiguSongSchema(Schema):
                 cover = cover.get('img')
             album = MiguAlbumModel(identifier=data.get('song_item').get('albumid'),
                                    name=data.get('song_item').get('album'), cover=cover)
-        if data.get('song_item').get('artists'):
+        if data.get('song_item', {}).get('artists'):
             for artist in data.get('song_item').get('artists'):
                 artists.append(MiguArtistModel(identifier=artist.get('id'), name=artist.get('name')))
+        # qualities = ['lq']
+        # top_q = data.get('song_item', {}).get('top_quality')
+        # if top_q == 'SQ':
+        #     qualities = ['sq', 'hq', 'lq']
+        # elif top_q == 'HQ':
+        #     qualities = ['hq', 'lq']
         return MiguSongModel(identifier=data.get('song_item').get('identifier'), title=data.get('song_item').get('title'),
                              link=data.get('url'), lrc=data.get('song_item').get('lrc'), album=album,
                              artists=artists, duration=10000)
@@ -74,7 +81,7 @@ class MiguSearchSongSchema(Schema):
         if data.get('has_sq') and int(data.get('has_sq')) == 1:
             qualities.append('sq')
         return MiguSongModel(identifier=data.get('identifier'), title=data.get('title'), duration=10000,
-                             lrc=data.get('lrc'), album=album, artists=artists, qualities=qualities.reverse())
+                             lrc=data.get('lrc'), album=album, artists=artists, qualities=reversed(qualities))
 
 
 class MiguAlbumSchema(Schema):

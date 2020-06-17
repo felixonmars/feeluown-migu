@@ -45,6 +45,7 @@ class KuwoMvModel(MvModel, KuwoBaseModel):
 class MiguSongModel(SongModel, KuwoBaseModel):
     class Meta:
         allow_get = True
+        support_multi_quality = True
         fields = ['lrc', 'qualities', 'link']
 
     def __init__(self, *args, **kwargs):
@@ -57,13 +58,27 @@ class MiguSongModel(SongModel, KuwoBaseModel):
 
     @property
     def url(self):
-        song = self.get(self.identifier)
-        print('Song link:', song.link)
-        return song.link
+        if self.link is None:
+            song = self.get(self.identifier)
+            self.link = song.link
+        return self.link
 
     @url.setter
     def url(self, value):
         self.link = value
+
+    def list_quality(self):
+        return self.qualities
+
+    def get_media(self, quality):
+        if quality == 'lq':
+            return Media(self.url,
+                         format=MiguApi.QUALITIES[quality][1],
+                         bitrate=MiguApi.QUALITIES[quality][0])
+        data_song = self._api.get_song(self.identifier, quality=quality)
+        url = data_song.get('data', {}).get('url')
+        return Media(url, format=MiguApi.QUALITIES[quality][1], bitrate=MiguApi.QUALITIES[quality][0])\
+            if url is not None else None
 
 
 class MiguArtistModel(ArtistModel, KuwoBaseModel):
