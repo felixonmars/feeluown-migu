@@ -6,4 +6,4 @@
 - [x] Play songs
 - [ ] Search artist/album/playlist
 - [ ] Artist/album/playlist detail
-- [ ] Multi-quality
+- [x] Multi-quality
