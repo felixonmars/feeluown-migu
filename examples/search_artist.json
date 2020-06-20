@@ -1,0 +1,21 @@
+{
+  "artists": [
+    {
+      "id": "955293",
+      "fullSongTotal": 908,
+      "title": "刘德华",
+      "albumNum": 113,
+      "artistPicL": "http://mcontent.10086.cn/newlv2/new/artist/20200107/955293/l_UdcYhlvj3SpdzCPZ.jpg",
+      "artiicM": "http://mcontent.10086.cn/newlv2/new/artist/20200107/955293/m_K18zzObpRMZ5r9Jy.jpg",
+      "artistPicS": "http://mcontent.10086.cn/newlv2/new/artist/20200107/955293/s_MQQOxJyP5WcJKXIr.jpg",
+      "songNum": 187,
+      "highlightStr": [
+        "刘德华"
+      ]
+    }
+  ],
+  "pgt": 1,
+  "keyword": "刘德华",
+  "pageNo": "1",
+  "success": true
+}

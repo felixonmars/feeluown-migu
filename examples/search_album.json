@@ -1,0 +1,504 @@
+{
+  "albums": [
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112186704/s_PBshm9eNn9tsLFNF.jpg",
+      "movieName": [],
+      "id": "1112186704",
+      "fullSongTotal": 19,
+      "title": "Max (Original Motion Picture Soundtrack)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112186704/l_Pn5YFHhBEDyNJJzH.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112186704/m_hR73IgmqMkDnJlRl.jpg",
+      "singer": [
+        {
+          "id": "15487",
+          "name": "演奏曲"
+        }
+      ],
+      "songNum": 19,
+      "publishDate": "2015-06-22",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicShttp://mcontent.10086.cn/newlv2/new/album/20200603/1134103472/s_dkNy9rUXNA5ZUOqh.jpg",
+      "movieName": [],
+      "id": "1134103472",
+      "fullSongTotal": 2,
+      "title": "Bad Boy (with Wiz Khalifa, bbno$, MAX)(Explicit)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200603/1134103472/l_0B4H2UHzAOsNoVjp.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200603/1134103472/m_k44INOahrKXWtgCS.jpg",
+      "singer": [
+        {
+          "id": "1108984760",
+          "name": "Yung Bae"
+        },
+        {
+          "id": "1000010453",
+          "name": "Wiz Khalifa"
+        },
+        {
+          "id": "1106712879",
+          "name": "bbno$"
+        },
+        {
+          "id": "1104928718",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 2,
+      "publishDate": "2020-05-29",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200602/1134093709/s_LEyKWBjsSsPQTlf0.jpg",
+      "movieName": [],
+      "id": "1134093709",
+      "fullSongTotal": 3,
+      "title": "Bad Boy (with Wiz Khalifa, bbno$, MAX)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200602/1134093709/l_FRpY0JECW44LMIy1.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200602/1134093709/m_7NJnxR7xODcGPjlS.jpg",
+      "singer": [
+        {
+          "id": "1108984760",
+          "name": "Yung Bae"
+        },
+        {
+          "id": "1106712879",
+          "name": "bbno$"
+        },
+        {
+          "id": "12667",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 3,
+      "publishDate": "2020-05-29",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112496633/s_v3pL5eWyRNMPURYz.jpg",
+      "movieName": [],
+      "id": "1112496633",
+      "fullSongTotal": 1,
+      "title": "Satisfied (Armand Van Helden x Cruise Control Remix)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112496633/l_EoGB38ul8GefdG6S.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112496633/m_06F7i7jUJdjxXmJJ.jpg",
+      "singer": [
+        {
+          "id": "1001504496",
+          "name": "Galantis"
+        },
+        {
+          "id": "1104928718",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2018-10-19",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112369320/s_lP4z02cVXzYhBuDG.jpg",
+      "movieName": [],
+      "id": "1112369320",
+      "fullSongTotal": 1,
+      "title": "Worship",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112369320/l_G9wNFKIashNGWCl9.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20191031/1112369320/m_VPtwAS8WVCrzzUMt.jpg",
+      "singer": [
+        {
+          "id": "1104928718",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2018-10-03",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20190611/1112334190/s_sSSkpjUqbjfR8uns.jpg",
+      "movieName": [],
+      "id": "1112334190",
+      "fullSongTotal": 5,
+      "title": "Satisfied / Mama  Look At Me Now (Remixes Part 2)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20190611/1112334190/l_bBYDffm8t08oJuTt.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20190611/1112334190/m_z44yiTCsLoqHOF2C.jpg",
+      "singer": [
+        {
+          "id": "1001504496",
+          "name": "Galantis"
+        },
+        {
+          "id": "1104928718",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 5,
+      "publishDate": "2018-09-25",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200515/1133607021/s_iGR8UqjGmG3zryXm.jpg",
+      "movieName": [],
+      "id": "1133607021",
+      "fullSongTotal": 1,
+      "title": "Max",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200515/1133607021/l_hvPzUcF53hJznl6F.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200515/1133607021/m_EmKHtC38HpMeBvh4.jpg",
+      "singer": [
+        {
+          "id": "1113914202",
+          "name": "Marion Harper"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2020-05-22",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200512/1133484780/s_qjSLmywRiPNsTdaV.jpg",
+      "movieName": [],
+      "id": "1133484780",
+      "fullSongTotal": 5,
+      "title": "Max",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200512/1133484780/l_17Bv4zC700E14MJx.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200512/1133484780/m_xhBK9AHbJwlZYOTE.jpg",
+      "singer": [
+        {
+          "id": "1133484775",
+          "name": "Max Escobar"
+        }
+      ],
+      "songNum": 5,
+      "publishDate": "2020-05-08",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200518/1133626782/s_DWBq88Q44hRg5eJc.jpg",
+      "movieName": [],
+      "id": "1133626782",
+      "fullSongTotal": 1,
+      "title": "MAX",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200518/1133626782/l_bCc0CjgUWczcLrXL.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200518/1133626782/m_IypyaICVxA8iMxoK.jpg",
+      "singer": [
+        {
+          "id": "1004678067",
+          "name": "Klockrent"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2020-02-28",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1130481498",
+      "fullSongTotal": 4,
+      "title": "Max",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "1120054459",
+          "name": "Kent Maxson"
+        }
+      ],
+      "songNum": 4,
+      "publishDate": "2019-11-21",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1117895221",
+      "fullSongTotal": 1,
+      "title": "Max",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "1105161225",
+          "name": "Jeff Gold"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2018-08-10",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1117648169",
+      "fullSongTotal": 10,
+      "title": "Max",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "1106293974",
+          "name": "Communicaution"
+        }
+      ],
+      "songNum": 10,
+      "publishDate": "2018-02-06",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200528/1134079910/s_2KObzibn54MBd6Vj.jpg",
+      "movieName": [],
+      "id": "1134079910",
+      "fullSongTotal": 1,
+      "title": "Missed Calls (feat. Hayley Kiyoko) [Party Pupils Remix]",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200528/1134079910/l_qEfFqvCCaBtIv5WP.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200528/1134079910/m_m2CqYaKf8UJrQn22.jpg",
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2020-06-03",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200516/1133646540/s_Op3dpoju3lJevyMS.jpg",
+      "movieName": [],
+      "id": "1133646540",
+      "fullSongTotal": 1,
+      "title": "Shooters",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200516/1133646540/l_7GyzS5510oihUGps.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200516/1133646540/m_wv9FtbjKwGm4xD36.jpg",
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2020-05-08",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200325/1131027572/s_5tTgfxrulGgB6puE.jpg",
+      "movieName": [],
+      "id": "1131027572",
+      "fullSongTotal": 1,
+      "title": "Blurry Memory",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200325/1131027572/l_kB2krROKLRXfPRd6.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200325/1131027572/m_fG7xxoyE93XCG8K7.jpg",
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        },
+        {
+          "id": "1131027571",
+          "name": "Johann feat. Zina Ida"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2020-03-20",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1130323676",
+      "fullSongTotal": 3,
+      "title": "Above the Clouds, Beneath Your Feet",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        },
+        {
+          "id": "1130323674",
+          "name": "the Wilds"
+        }
+      ],
+      "songNum": 3,
+      "publishDate": "2019-10-03",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20191031/1116244964/s_Q6JFEW9iMKNf5lbc.jpg",
+      "movieName": [],
+      "id": "1116244964",
+      "fullSongTotal": 1,
+      "title": "Love Me Less (feat. Kim Petras)",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20191031/1116244964/l_FReRHqpnp2VcgZS9.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20191031/1116244964/m_CvHmVc4uB83u9fiV.jpg",
+      "singer": [
+        {
+          "id": "1104928718",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 1,
+      "publishDate": "2019-09-05",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1130496658",
+      "fullSongTotal": 3,
+      "title": "Todo Está Pasando Ahora",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 3,
+      "publishDate": "2019-08-02",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": "http://mcontent.10086.cn/newlv2/new/album/20200103/1129255387/s_WqafsKpCUVUL0Pak.jpg",
+      "movieName": [],
+      "id": "1129255387",
+      "fullSongTotal": 13,
+      "title": "Max",
+      "albumPicL": "http://mcontent.10086.cn/newlv2/new/album/20200103/1129255387/l_BBsLr4giAUX1blDC.jpg",
+      "albumPicM": "http://mcontent.10086.cn/newlv2/new/album/20200103/1129255387/m_WEnffO0psMmU1KPb.jpg",
+      "singer": [
+        {
+          "id": "1002311406",
+          "name": "Nerone"
+        }
+      ],
+      "songNum": 13,
+      "publishDate": "2017-05-19",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    },
+    {
+      "albumPicS": null,
+      "movieName": [],
+      "id": "1119351396",
+      "fullSongTotal": 3,
+      "title": "Max",
+      "albumPicL": null,
+      "albumPicM": null,
+      "singer": [
+        {
+          "id": "12667",
+          "name": "MAX"
+        }
+      ],
+      "songNum": 3,
+      "publishDate": "2016-12-13",
+      "highlightStr": [
+        "max",
+        "Max",
+        "MAX"
+      ],
+      "programName": null
+    }
+  ],
+  "pgt": 271,
+  "keyword": "max",
+  "pageNo": "1",
+  "success": true
+}

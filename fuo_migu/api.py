@@ -18,7 +18,7 @@ class Singleton(type):
 
 
 class MiguApi(object, metaclass=Singleton):
-    """ kuwo music API class """
+    """ migu music API class """
     HEADERS = {
         'Accept': '*/*',
         'Accept-Encoding': 'gzip,deflate',
@@ -31,8 +31,8 @@ class MiguApi(object, metaclass=Singleton):
 
     QUALITIES = {
         'lq': (128, '128kmp3'),
-        'hq': (192, '192kmp3'),
-        'sq': (320, '320kmp3'),
+        'sq': (192, '192kmp3'),
+        'hq': (320, '320kmp3'),
     }
 
     TIMEOUT = 30
@@ -56,7 +56,7 @@ class MiguApi(object, metaclass=Singleton):
         except:
             pass
 
-    def search(self, keyword: str, search_type: SearchType=SearchType.so, page=1, limit=20):
+    def search(self, keyword: str, search_type: SearchType = SearchType.so, page=1, limit=20):
         uri = MiguApi.API_HOST + f'/remoting/scr_search_tag?keyword={keyword}' \
                                  f'&type={MiguApi.SEARCH_TYPES[search_type]}&pgc={page}&rows={limit}'
         response = self.session.get(uri)

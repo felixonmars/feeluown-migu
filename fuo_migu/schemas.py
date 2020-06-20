@@ -76,12 +76,71 @@ class MiguSearchSongSchema(Schema):
             for i, aid in enumerate(data.get('artistid').split(', ')):
                 artists.append(MiguArtistModel(identifier=int(aid), name=artists_name[i] or ''))
         qualities = ['lq']
-        if data.get('has_hq') and int(data.get('has_hq')) == 1:
-            qualities.append('hq')
         if data.get('has_sq') and int(data.get('has_sq')) == 1:
             qualities.append('sq')
+        if data.get('has_hq') and int(data.get('has_hq')) == 1:
+            qualities.append('hq')
         return MiguSongModel(identifier=data.get('identifier'), title=data.get('title'), duration=10000,
                              lrc=data.get('lrc'), album=album, artists=artists, qualities=reversed(qualities))
+
+
+class MiguSearchArtistSchema(Schema):
+    identifier = fields.Str(data_key='id', required=True)
+    name = fields.Str(data_key='title', required=True)
+    cover_l = fields.Str(data_key='artistPicL', required=False, default=None, allow_none=True)
+    cover_m = fields.Str(data_key='artiicM', required=False, default=None, allow_none=True)
+    cover_s = fields.Str(data_key='artistPicS', required=False, default=None, allow_none=True)
+
+    @post_load
+    def create_model(self, data, **kwargs):
+        cover = None
+        if data.get('cover_s'):
+            cover = data.get('cover_s')
+        if data.get('cover_m'):
+            cover = data.get('cover_m')
+        if data.get('cover_l'):
+            cover = data.get('cover_l')
+        return MiguArtistModel(identifier=int(data.get('identifier')), name=data.get('name'), cover=cover or '')
+
+
+class _MiguSearchAlbumArtistsSchema(Schema):
+    identifier = fields.Str(data_key='id', required=True)
+    name = fields.Str(data_key='name', required=True)
+
+    @post_load
+    def create_model(self, data, **kwargs):
+        return MiguArtistModel(identifier=int(data.get('identifier')), name=data.get('name'))
+
+
+class MiguSearchAlbumSchema(Schema):
+    identifier = fields.Str(data_key='id', required=True)
+    name = fields.Str(data_key='title', required=True)
+    cover_l = fields.Str(data_key='albumPicL', required=False)
+    cover_m = fields.Str(data_key='albumPicM', required=False)
+    cover_s = fields.Str(data_key='albumPicS', required=False)
+    artists = fields.List(fields.Nested('_MiguSearchAlbumArtistsSchema'), data_key='singer')
+
+    @post_load
+    def create_model(self, data, **kwargs):
+        cover = None
+        if data.get('cover_s'):
+            cover = data.get('cover_s')
+        if data.get('cover_m'):
+            cover = data.get('cover_m')
+        if data.get('cover_l'):
+            cover = data.get('cover_l')
+        return MiguAlbumModel(identifier=int(data.get('identifier')), name=data.get('name'), cover=cover or '',
+                              artists=data.get('artists'))
+
+
+class MiguSearchPlaylistSchema(Schema):
+    identifier = fields.Str(data_key='id', required=True)
+    name = fields.Str(data_key='name', required=True)
+    cover = fields.Str(data_key='img', required=False)
+
+    @post_load
+    def create_model(self, data, **kwargs):
+        return MiguPlaylistModel(identifier=int(data.get('identifier')), name=data.get('name'), cover=data.get('cover'))
 
 
 class MiguAlbumSchema(Schema):
@@ -91,7 +150,7 @@ class MiguAlbumSchema(Schema):
     artist = fields.Str(data_key='artist', required=True)
     artistid = fields.Int(data_key='artistid', required=True)
     albuminfo = fields.Str(data_key='albuminfo', required=False)
-    songs = fields.List(fields.Nested('KuwoSongSchema'), data_key='musicList', allow_none=True, required=False)
+    songs = fields.List(fields.Nested('MiguSongSchema'), data_key='musicList', allow_none=True, required=False)
 
     @post_load
     def create_model(self, data, **kwargs):
@@ -114,17 +173,4 @@ class MiguArtistSchema(Schema):
                                desc=data.get('desc'), info=data.get('desc'))
 
 
-class KuwoPlaylistSchema(Schema):
-    identifier = fields.Int(data_key='id', required=True)
-    cover = fields.Str(data_key='img', required=False)
-    name = fields.Str(data_key='name', required=True)
-    desc = fields.Str(data_key='info', required=False)
-    songs = fields.List(fields.Nested('KuwoSongSchema'), data_key='musicList', allow_none=True, required=False)
-
-    @post_load
-    def create_model(self, data, **kwargs):
-        return KuwoPlaylistModel(identifier=data.get('identifier'), name=data.get('name'), cover=data.get('cover'),
-                                 desc=data.get('desc'), songs=data.get('songs'))
-
-
-from .models import KuwoPlaylistModel, MiguSongModel, MiguAlbumModel, MiguArtistModel
+from .models import MiguSongModel, MiguAlbumModel, MiguArtistModel, MiguPlaylistModel
